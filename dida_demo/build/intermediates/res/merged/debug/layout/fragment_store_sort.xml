@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View style="@style/divider_nomal_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/rl_sort"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/tv_sort_select"
+            style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="选择分类：" />
+
+        <TextView
+            android:id="@+id/tv_sort"
+            style="@style/gray_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@id/tv_sort_select"
+            android:text="短袖" />
+
+        <ImageView
+            android:layout_marginRight="16dp"
+            android:id="@+id/iv_sort_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/open_down_nor" />
+
+
+    </RelativeLayout>
+
+
+    <View style="@style/divider_nomal_horizontal" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_store_sort"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.dida.first.view.FlowLayout
+
+            android:padding="8dp"
+            android:background="@color/white"
+            android:id="@+id/fl_store_sort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+</LinearLayout>
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/fragment_store_sort.xml -->

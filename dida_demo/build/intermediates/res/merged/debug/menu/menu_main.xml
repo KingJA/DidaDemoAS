@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:activity=".MainActivity">
+    <!--<item android:id="@+id/action_settings" android:title="设置"-->
+        <!--android:orderInCategory="120" app:showAsAction="ifRoom" />-->
+
+    <item android:id="@+id/action_share"
+        android:title="分享"
+        android:orderInCategory="110"
+        android:icon="@drawable/chat_nor"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSearch"
+        android:title="search" />
+</menu>
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/menu/menu_main.xml -->

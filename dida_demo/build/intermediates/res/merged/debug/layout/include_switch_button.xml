@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/white">
+    <TextView
+        android:layout_centerVertical="true"
+        android:text="匿名购买"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.dida.first.view.MySwitchButton
+        android:id="@+id/msb_pingou_show_nobody"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/include_switch_button.xml -->

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0EFED"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/header_titlebar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@null"
+                    android:gravity="left|top"
+                    android:hint="(求购需求)把您需要的商品详细地描述出来"
+                    android:lines="5" >
+                </EditText>
+                <!-- android:id="@+id/gridview" -->
+
+                <com.dida.first.view.AbsListView.MyGridView
+                    android:id="@+id/gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:horizontalSpacing="8dp"
+                    android:numColumns="4"
+                    android:scrollbars="none"
+                    android:verticalSpacing="4dp" >
+                </com.dida.first.view.AbsListView.MyGridView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#8b8b8b" >
+                </View>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/location" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="显示位置" />
+                    </LinearLayout>
+
+                    <com.dida.first.view.MySwitchButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" >
+                    </com.dida.first.view.MySwitchButton>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp" >
+
+                    <TextView
+                        android:id="@+id/tv_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="8dp"
+                        android:text="选择分类："
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_select_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/tv_select"
+                        android:textColor="#8b8b8b"
+                        android:textSize="18sp" />
+
+                    <RelativeLayout
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" >
+
+                        <ImageView
+                            android:id="@+id/iv_down_up"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/xiala" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:orientation="vertical" >
+
+                    <FrameLayout
+                        android:id="@+id/fl_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <GridView
+                            android:id="@+id/gv_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:horizontalSpacing="8dp"
+                            android:numColumns="4"
+                            android:verticalSpacing="8dp" >
+                        </GridView>
+                    </FrameLayout>
+
+                    <View
+                        android:id="@+id/view_down_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#708b8b8b" >
+                    </View>
+
+                    <LinearLayout
+                        android:id="@+id/ll_deadline"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="有效截止日期："
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_deadline"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:textColor="#8b8b8b"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                   <!--  <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#708b8b8b" >
+                    </View> -->
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/act_publish.xml -->

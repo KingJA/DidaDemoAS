@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:width="2dp" />
+    <solid android:color="@color/red" />
+</shape><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/drawable/cursor_et.xml -->

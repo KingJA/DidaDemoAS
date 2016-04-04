@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_register_focus"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical" >
+        <TextView 
+            android:text="这个名字可不太好看，快用取名神器吧"
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            
+            />
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:padding="8dp" >
+
+            <EditText
+                android:inputType="textPersonName"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:id="@+id/et_name_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="叫什么呢..." />
+            <ImageView 
+                android:id="@+id/iv_suiji"
+                android:background="@drawable/selector_random_btn"
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                
+                />
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_marginTop="8dp"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            
+            >
+</LinearLayout>
+        
+     
+        <Button
+            android:id="@+id/btn_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/selector_red2red_deep"
+            android:minHeight="0dp"
+            android:padding="8dp"
+            android:text="就叫它了"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/activity_name.xml -->

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" 
+    android:id="@+id/ll_lunbotu_head">
+    <RelativeLayout
+        android:id="@+id/rl_frush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp" 
+            android:paddingBottom="20dp" >
+
+            <TextView 
+                android:layout_centerInParent="true"
+                android:id="@+id/tv_frush"
+                android:text="下拉刷新"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView 
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                android:id="@+id/tv_tag"
+                android:text="子子子子子子子"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+       <ProgressBar
+                android:layout_marginRight="16dp"
+                android:layout_toLeftOf="@id/tv_tag"
+                android:layout_centerVertical="true"
+                style="@style/MyProgressBar"
+                android:id="@+id/pd_frush"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               />
+            <ImageView
+                android:background="@drawable/mg_loading"
+                android:layout_marginRight="16dp"
+                android:layout_toLeftOf="@id/tv_tag"
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_frush"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               />
+       
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/head_listview.xml -->

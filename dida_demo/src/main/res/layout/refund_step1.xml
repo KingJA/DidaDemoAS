@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+         android:id="@+id/ll_refund_step1_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout 
+             android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+            >
+            <View
+                android:layout_centerHorizontal="true"
+                style="@style/divider_red_vertical"
+              
+                
+                />
+        <ImageView
+             android:layout_centerHorizontal="true"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/refundstep_1" />
+</RelativeLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:orientation="vertical"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/refund_red"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/white_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="买家申请退货" />
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                style="@style/divider_red_horizontal"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/white_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="退货原因:" />
+
+                <TextView
+                    android:id="@+id/tv_refundm_step1_reason"
+                    android:layout_marginLeft="8dp"
+                    style="@style/white_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7天无理由退货" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/white_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="退款金额:" />
+
+                <TextView
+                     android:id="@+id/tv_refundm_step1_money"
+                     android:layout_marginLeft="8dp"
+                    style="@style/white_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="98.00" />
+                <TextView
+                    style="@style/white_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="元" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView 
+             android:id="@+id/tv_refundm_step1_date"
+            android:layout_marginBottom="40dp"
+            style="@style/gray_14"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:text="2015-09-28 18:06:10"
+             android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+            /></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

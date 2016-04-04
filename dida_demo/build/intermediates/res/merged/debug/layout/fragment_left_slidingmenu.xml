@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="match_parent" 
+    android:background="#ffffff"
+    android:clickable="true"
+    android:orientation="vertical">
+    <LinearLayout 
+        android:background="#f1f1f1"
+         android:layout_width="match_parent"
+    android:layout_height="80dp" 
+        
+        ></LinearLayout>
+
+   <ListView
+       android:cacheColorHint="#00000000"
+    android:listSelector="#00000000"
+        android:id="@+id/lv_left_slidingmenu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#ffffff"
+        android:choiceMode="singleChoice"
+        android:divider="#558b8b8b"
+        android:dividerHeight="1dp" />
+  <!--   android:cacheColorHint="#00000000"
+    android:listSelector="#00000000" -->
+
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/fragment_left_slidingmenu.xml -->

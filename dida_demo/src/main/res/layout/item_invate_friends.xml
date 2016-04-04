@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <com.meg7.widget.CircleImageView
+            android:id="@+id/iv_publish_icon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/invate_icon"
+            android:scaleType="centerCrop" />
+
+
+        <TextView
+            android:id="@+id/iv_publish_name"
+            android:layout_marginLeft="8dp"
+            android:text="豆奶喝不醉"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_centerVertical="true"
+        android:id="@+id/cb_invate_item"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignParentRight="true"
+        android:button="@drawable/checkbox_checked_style" />
+</RelativeLayout>

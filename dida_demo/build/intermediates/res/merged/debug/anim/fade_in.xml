@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="500"
+    android:fromXDelta="0.0"
+    android:toXDelta="0.0"
+    android:fromYDelta="0"
+    android:toYDelta="50%p" />
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/anim/fade_in.xml -->

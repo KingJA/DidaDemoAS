@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/ll_comment_empty"
+    >
+
+    <TextView
+        style="@style/gray_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="还没有评论呢" />
+
+    <TextView
+        android:id="@+id/tv_comment_first"
+        android:layout_marginTop="8dp"
+        style="@style/btn_red_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="抢沙发" />
+
+</LinearLayout>

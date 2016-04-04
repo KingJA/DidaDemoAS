@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+          android:id="@+id/ll_refund_step2_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout 
+             android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+            >
+            <View
+                android:layout_centerHorizontal="true"
+                style="@style/divider_red_vertical"
+              
+                
+                />
+        <ImageView
+             android:layout_centerHorizontal="true"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/refundstep_2" />
+</RelativeLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:orientation="vertical"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/refund_white"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/black_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="卖家处理退款信息" />
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                style="@style/divider_nomal_horizontal"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/gray_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收件人:" />
+
+                <TextView
+                     android:id="@+id/tv_refundm_step2_name"
+                    android:layout_marginLeft="8dp"
+                    style="@style/gray_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="赵日天" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/gray_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="电话:" />
+
+                <TextView
+                     android:id="@+id/tv_refundm_step2_phone"
+                     android:layout_marginLeft="8dp"
+                    style="@style/gray_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13888868688" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/gray_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地址:" />
+
+                <TextView
+                     android:id="@+id/tv_refundm_step2_address"
+                     android:layout_marginLeft="8dp"
+                    style="@style/gray_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="浙江省温州市龙湾区农业开发区文昌路20号红连文创园811" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView 
+             android:id="@+id/tv_refundm_step2_date"
+            android:layout_marginBottom="40dp"
+            style="@style/gray_14"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:text="2015-09-30 08:06:10"
+             android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            /></LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+         android:id="@+id/ll_refund_step2_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout 
+             android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+            >
+            <View
+                android:layout_centerHorizontal="true"
+                style="@style/divider_nomal_vertical"
+              
+                
+                />
+        <ImageView
+             android:layout_centerHorizontal="true"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/refundstep_02" />
+</RelativeLayout>
+<TextView 
+    android:gravity="center_vertical"
+    android:layout_marginLeft="16dp"
+     android:layout_marginBottom="40dp"
+    android:text="商家处理退款信息"
+    style="@style/gray_14"
+    android:layout_width="match_parent"
+            android:layout_height="28dp"
+    
+    />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/refund_step2.xml -->

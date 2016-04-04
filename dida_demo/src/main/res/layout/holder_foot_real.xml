@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardElevation="2px" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+ <LinearLayout
+     android:gravity="center_vertical"
+     android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+         <CheckBox
+              android:id="@+id/cb_foot_real"
+             android:visibility="gone"
+              android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:button="@drawable/checkbox_checked_style" />
+        <TextView
+             android:id="@+id/tv_foot_real_date"
+            style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015-09-30" />
+ </LinearLayout>
+        
+        <com.dida.first.view.AbsListView.MyGridView
+            android:id="@+id/mgv_foot_real"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:horizontalSpacing="4dp"
+            android:listSelector="#00000000"
+            android:numColumns="3"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="4dp" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardElevation="2px">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.facebook.drawee.view.SimpleDraweeView xmlns:fresco="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/iv_item_pingou_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fresco:viewAspectRatio="2"
+                fresco:placeholderImage="@drawable/default_img_large"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:progressBarImage="@drawable/progress"
+                fresco:progressBarImageScaleType="centerInside"
+                fresco:progressBarAutoRotateInterval="3000" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/transparency_70">
+
+                <ImageView
+                    android:id="@+id/iv_item_pingou_qiang"
+                    android:layout_width="49dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/tv_item_pingou_title"
+                    style="@style/white_14_line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toLeftOf="@id/iv_item_pingou_qiang"
+                    android:text="布加迪威龙上亿跑车,迪拜王子同款,全球限量3辆，亚太区限售1辆！" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_item_pingou_isuser"
+                android:layout_width="31dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop" />
+        </RelativeLayout>
+        <!-- </LinearLayout>-->
+        <RelativeLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/black_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="目标" />
+
+                <TextView
+                    android:id="@+id/tv_item_pingou_subject"
+                    style="@style/red_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+
+                <TextView
+                    style="@style/black_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="份" />
+
+                <TextView
+                    style="@style/black_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="仅剩" />
+
+                <TextView
+                    android:id="@+id/tv_item_pingou_left"
+                    style="@style/red_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2" />
+
+                <TextView
+                    style="@style/black_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="份" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:id="@+id/ll_item_pingou_deadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:background="@drawable/deadline" />
+
+                <TextView
+                    style="@style/gray_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="仅剩" />
+
+                <com.dida.first.view.DeadlineTextView
+                    android:id="@+id/tv_item_pingou_day"
+                    style="@style/red_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20" />
+
+                <TextView
+                    style="@style/gray_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="天" />
+
+                <com.dida.first.view.DeadlineTextView
+                    android:id="@+id/tv_item_pingou_hour"
+                    style="@style/red_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20" />
+
+                <TextView
+                    style="@style/gray_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小时" />
+
+                <com.dida.first.view.DeadlineTextView
+                    android:id="@+id/tv_item_pingou_min"
+                    style="@style/red_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30" />
+
+                <TextView
+                    style="@style/gray_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="分钟" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <View style="@style/divider_nomal_horizontal" />
+
+        <RelativeLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_item_pingou_price"
+                    style="@style/red_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="88888.00" />
+
+
+                <com.dida.first.view.DeleteTextView
+                    android:id="@+id/tv_item_pingou_oldprice"
+                    style="@style/gray_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="88888.00" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:background="@drawable/comment_pingou" />
+
+                <TextView
+                    android:id="@+id/tv_item_pingou_comment"
+                    style="@style/gray_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="2045" />
+
+                <TextView
+                    style="@style/gray_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="条评论" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

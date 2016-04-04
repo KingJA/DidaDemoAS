@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/gray_light"
+    android:padding="16dp">
+    <RelativeLayout 
+        android:padding="8dp"
+        android:background="@drawable/sharp_white_4"
+         android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        
+        >
+        <EditText 
+            android:id="@+id/et_personal_editnick_nick"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:hint="请输入昵称"
+             android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+            
+            />
+        <ImageView 
+            android:visibility="gone"
+             android:id="@+id/iv_personal_editnick_delete"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+         android:background="@drawable/delete_gray"
+             android:layout_width="16dp"
+    android:layout_height="16dp"
+            
+            />
+        
+    </RelativeLayout>
+    <TextView 
+        style="@style/gray_12"
+        android:layout_marginTop="16dp"
+        android:text="1.此昵称非登录会员名，仅在aamai等社区场景显示。"
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        />
+    <TextView 
+         style="@style/gray_12"
+         android:layout_marginTop="8dp"
+        android:text="2.与aamai业务或卖家品牌冲突的昵称，aamai有可能收回。"
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        />
+    <Button
+        android:padding="8dp"
+        android:minHeight="0dp"
+          android:id="@+id/btn_personal_editnick_confirm"
+      android:background="@drawable/selector_red2red_deep"
+         android:layout_marginTop="56dp"
+        android:text="确认"
+        android:textColor="@color/white"
+         android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/activity_mine_personal_nick.xml -->

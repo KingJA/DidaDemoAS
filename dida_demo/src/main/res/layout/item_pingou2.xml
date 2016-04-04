@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardElevation="2px"
+    >
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/iv_item_pingou_icon"
+        android:layout_width="146dp"
+        android:layout_height="146dp"
+        fresco:placeholderImage="@drawable/default_img_large"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:progressBarImage="@drawable/progress"
+        fresco:progressBarImageScaleType="centerInside"
+        fresco:progressBarAutoRotateInterval="3000"/>
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_overude"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_overdue"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_item_pingou_title"
+        style="@style/black_14_line2"
+        android:text="可靠性是自动化测试的一个核心要素，这意味着无论执行多少次，无论在什么情况下执行，它的结果应该一致，都通过或都失败。"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <View style="@style/divider_special_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/black_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="目标" />
+
+            <TextView
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:id="@+id/tv_item_pingou_subject"
+                style="@style/red_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3" />
+
+            <TextView
+                style="@style/black_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="份" />
+
+            <TextView
+                style="@style/black_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="| 仅剩" />
+
+            <TextView
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:id="@+id/tv_item_pingou_left"
+                style="@style/red_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2" />
+
+            <TextView
+                style="@style/black_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="份" />
+
+        </LinearLayout>
+        <View style="@style/divider_special_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/ll_item_pingou_deadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+<!--
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@drawable/deadline" />-->
+
+            <TextView
+                style="@style/gray_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="仅剩" />
+            <com.dida.first.view.DeadlineTextView
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:id="@+id/tv_item_pingou_day"
+                style="@style/red_14_deadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20" />
+
+            <TextView
+                style="@style/gray_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天" />
+            <com.dida.first.view.DeadlineTextView
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:id="@+id/tv_item_pingou_hour"
+                style="@style/red_14_deadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20" />
+
+            <TextView
+                style="@style/gray_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时" />
+
+            <com.dida.first.view.DeadlineTextView
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:id="@+id/tv_item_pingou_min"
+                style="@style/red_14_deadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30" />
+
+            <TextView
+                style="@style/gray_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分" />
+
+
+        </LinearLayout>
+        <View style="@style/divider_special_horizontal"
+            android:layout_marginTop="4dp"
+             />
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_item_pingou_price"
+                style="@style/red_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8888.00" />
+
+
+            <com.dida.first.view.DeleteTextView
+
+                android:id="@+id/tv_item_pingou_oldprice"
+                style="@style/gray_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="8888.00" />
+
+
+        </LinearLayout>
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_item_pingou_qiang"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+   </android.support.v7.widget.CardView>

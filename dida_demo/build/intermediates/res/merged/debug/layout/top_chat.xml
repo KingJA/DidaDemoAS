@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/black_bg" >
+
+
+            <ImageView
+                android:layout_marginLeft="16dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_top_chat_back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+               android:layout_alignParentLeft="true"
+                android:background="@drawable/btn_back" />
+            <ImageView
+                android:layout_marginRight="16dp"
+                android:layout_centerVertical="true"
+                 android:id="@+id/iv_top_chat_add"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+               android:layout_alignParentRight="true"
+                android:background="@drawable/chat_add" />
+
+        <LinearLayout
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+           android:id="@+id/ll_top_chat_switch"
+           android:background="@drawable/chat_switch_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                   android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+                android:id="@+id/tv_top_chat_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消息"
+                style="@style/black_16"/>
+
+            <TextView
+                   android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+                 android:id="@+id/tv_top_chat_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="好友"
+                style="@style/white_16" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    
+
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/top_chat.xml -->

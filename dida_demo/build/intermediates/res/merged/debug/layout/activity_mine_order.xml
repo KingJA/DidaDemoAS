@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/gray_tip">
+
+    <LinearLayout
+         android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+<LinearLayout 
+    android:orientation="vertical"
+     android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+    >
+            <TextView
+                android:gravity="center"
+                style="@style/black_14"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="全部" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/red" /></LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+<LinearLayout 
+    android:orientation="vertical"
+     android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+    >
+            <TextView
+                android:gravity="center"
+                style="@style/black_14"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="待付款" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/red" />
+        </LinearLayout> </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+<LinearLayout 
+    android:orientation="vertical"
+     android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+    >
+            <TextView
+                android:gravity="center"
+                style="@style/black_14"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="待发货" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/red" />
+        </LinearLayout> </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+<LinearLayout 
+    android:orientation="vertical"
+     android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+    >
+            <TextView
+                android:gravity="center"
+                style="@style/black_14"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="待收货" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/red" />
+        </LinearLayout> </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+<LinearLayout 
+    android:orientation="vertical"
+     android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+    >
+            <TextView
+                android:gravity="center"
+                style="@style/black_14"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="待评价" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/red" />
+        </LinearLayout> </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/activity_mine_order.xml -->

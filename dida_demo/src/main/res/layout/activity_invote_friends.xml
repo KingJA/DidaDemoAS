@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/plv_invate_friends"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        android:scrollbars="none"
+        ptr:ptrDrawable="@drawable/mg_loading"
+        ptr:ptrMode="both"
+        ptr:ptrScrollingWhileRefreshingEnabled="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_deep"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:paddingLeft="32dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_invate_checkall"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:button="@drawable/checkbox_checked_style" />
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                style="@style/white_16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="已选择" />
+
+            <TextView
+                android:layout_marginLeft="4dp"
+                android:id="@+id/tv_invote_count"
+                style="@style/red_18"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="0" />
+
+            <TextView
+                android:layout_marginLeft="4dp"
+                style="@style/white_16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="位好友" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_invote_enter"
+            style="@style/white_16"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="确定" />
+    </LinearLayout>
+</LinearLayout>

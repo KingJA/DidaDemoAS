@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_personal_gender_man"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:padding="12dp" >
+
+        <TextView
+            style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="男" />
+
+        <ImageView
+            android:visibility="gone"
+             android:id="@+id/iv_personal_gender_man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_seled" />
+    </RelativeLayout>
+
+    <View style="@style/divider_nomal_horizontal" />
+
+    <RelativeLayout
+         android:id="@+id/rl_personal_gender_woman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="12dp" >
+
+        <TextView
+            style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="女" />
+
+        <ImageView
+              android:id="@+id/iv_personal_gender_woman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_seled"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_personal_editgender_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/selector_red2red_deep"
+        android:minHeight="0dp"
+        android:padding="8dp"
+        android:text="确认"
+        android:textColor="@color/white" />
+
+</LinearLayout>

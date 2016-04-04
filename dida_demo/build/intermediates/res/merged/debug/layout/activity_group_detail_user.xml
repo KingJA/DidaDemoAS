@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <ScrollView
+       android:overScrollMode="never"
+       android:scrollbars="none"
+       android:fillViewport="true"
+        android:layout_height="0dp"
+         android:layout_weight="1"
+        android:layout_width="match_parent"
+        >
+    <LinearLayout 
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+       <!-- 标题-->
+       <FrameLayout 
+           android:id="@+id/fl_group_detail_head"
+            android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+           />
+        <!-- 列表-->
+       <FrameLayout 
+           android:id="@+id/fl_group_detail_item"
+            android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+           />
+        <include layout="@layout/include_open_right_team"/>
+        <!-- 评论-->
+        <FrameLayout
+            android:id="@+id/fl_group_detail_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <!-- 描述-->
+       <FrameLayout 
+           android:id="@+id/fl_group_detail_des"
+            android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+           />
+        <!-- 团员-->
+       <!--<FrameLayout
+            android:layout_marginTop="8dp"
+           android:id="@+id/fl_group_detail_team"
+            android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+           />-->
+
+    </LinearLayout>
+ </ScrollView>
+    <View style="@style/divider_nomal_horizontal"/>
+<include layout="@layout/bottom_pingou_detail_user"/>
+</LinearLayout>
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/activity_group_detail_user.xml -->

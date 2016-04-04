@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/red" >
+
+
+            <ImageView
+                android:layout_marginLeft="16dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_top_back_left"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+               android:layout_alignParentLeft="true"
+                android:background="@drawable/btn_back" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_top_back_right"
+                android:layout_width="30dp"
+                android:layout_height="24dp"
+               android:layout_alignParentRight="true"
+                android:background="@drawable/chat_nor" />
+          <TextView
+               android:visibility="gone"
+              android:layout_centerVertical="true"
+              android:layout_marginRight="16dp"
+               android:layout_alignParentRight="true"
+                android:id="@+id/tv_top_back_right_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="按钮"
+            style="@style/white_16" />
+
+        <LinearLayout
+           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_top_back_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标题"
+                style="@style/white_16"/>
+            <LinearLayout 
+                android:visibility="gone"
+                android:id="@+id/ll_title_num"
+                 android:layout_marginLeft="8dp"
+                 android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+                
+                >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="("
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_title_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=")"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+            
+            
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_my_order_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/top_back.xml -->

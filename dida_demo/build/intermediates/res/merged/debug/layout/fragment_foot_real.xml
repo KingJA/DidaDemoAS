@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+ >
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lv_foot_real"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#000000"
+        android:dividerHeight="0dp"
+        android:listSelector="#00000000"
+        android:scrollbars="none"
+        ptr:ptrDrawable="@drawable/mg_loading"
+        ptr:ptrHeaderTextAppearance="@android:attr/textAppearanceMediumInverse"
+        ptr:ptrMode="both"
+        ptr:ptrScrollingWhileRefreshingEnabled="true" />
+     <ImageButton
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="24dp"
+        android:id="@+id/ib_foot_real_button"
+        android:background="@drawable/delete_close"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        />
+
+</RelativeLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/fragment_foot_real.xml -->

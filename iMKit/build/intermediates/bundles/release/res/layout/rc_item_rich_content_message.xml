@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/rc_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    
+ >
+    <LinearLayout 
+        android:background="#8FD949"
+        android:padding="16dp" 
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:orientation="horizontal"
+        >
+
+    <io.rong.imkit.widget.AsyncImageView
+        
+        android:id="@+id/rc_img"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/rc_ic_def_rich_content"
+        app:defDrawable="@drawable/rc_ic_def_rich_content" />
+
+    <RelativeLayout
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/rc_img" >
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/rc_content"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:lines="2"
+            android:text="夏日天堂劲爆金正日奥巴马同款手游，我在上海正式亮相，请大家赶紧来购买，时机不可错过，赶紧买一送一" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/rc_rmb"
+           android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="￥" />
+
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/rc_title"
+           android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/rc_rmb"
+            android:background="@android:color/transparent"
+            android:text="128.00" />
+
+    </RelativeLayout>
+</LinearLayout>
+</RelativeLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/iMKit/src/main/res/layout/rc_item_rich_content_message.xml -->

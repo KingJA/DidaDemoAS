@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_tip"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <com.meg7.widget.CircleImageView
+            android:id="@+id/iv_invate_item_icon"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/invate_icon" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/level" />
+
+        <TextView
+            android:id="@+id/tv_invate_item_name"
+            style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="豆奶喝不醉" />
+
+        <ImageView
+            android:id="@+id/iv_invate_item_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/gender_woman" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:padding="12dp">
+
+        <TextView
+            style="@style/gray_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="等级" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+
+            <TextView
+                style="@style/gray_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="88.58" />
+
+            <TextView
+                style="@style/gray_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+
+        style="@style/divider_nomal_horizontal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="12dp">
+
+        <TextView
+            style="@style/gray_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="等级" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+
+            <TextView
+                style="@style/gray_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="756" />
+
+            <TextView
+                style="@style/gray_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:padding="12dp">
+
+        <TextView
+            style="@style/gray_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地区" />
+
+
+        <TextView
+            style="@style/gray_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="浙江 温州 龙湾区" />
+    </RelativeLayout>
+
+    <Button
+
+        style="@style/white_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/selector_red2red_deep"
+        android:minHeight="0dp"
+        android:padding="10dp"
+        android:text="加为好友" />
+</LinearLayout>

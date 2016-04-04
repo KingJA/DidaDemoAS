@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardElevation="2px" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:background="@drawable/selector_white2gray"
+           android:id="@+id/rl_mine_refund_store"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:id="@+id/ll_mine_shopcar_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:background="@drawable/shop" />
+
+                <TextView
+                    android:id="@+id/tv_mine_refund_store"
+                    style="@style/black_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="Json旗舰店" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/right_open" />
+            </LinearLayout>
+
+            <TextView
+                 android:id="@+id/tv_mine_refund_deal"
+                style="@style/red_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="商家处理中" />
+        </RelativeLayout>
+
+        <View style="@style/divider_nomal_horizontal" />
+        
+        <RelativeLayout 
+            
+             android:id="@+id/rl_mine_refund_detail"
+            android:background="@color/gray_light"
+             android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+             android:padding="10dp"
+            >
+            <ImageView 
+                android:id="@+id/iv_mine_refund"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shopcar_item"
+                 android:layout_width="64dp"
+                android:layout_height="64dp"
+                
+                />
+              <RelativeLayout 
+                  android:layout_marginLeft="10dp"
+                  android:layout_toRightOf="@id/iv_mine_refund"
+             android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            >
+            <TextView
+                  android:id="@+id/tv_mine_refund_title"
+                android:text="2015新款海宁真皮羽绒服中长款狐狸毛领绵羊皮衣外套女士反季特价2015新款海宁真皮羽绒服中长款狐狸毛领绵羊皮衣外套女士反季特价" 
+               style="@style/black_14_line2"
+                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                />
+            <TextView
+                 android:id="@+id/tv_mine_refund_param"
+               android:layout_below="@id/tv_mine_refund_title"
+                android:layout_marginTop="10dp"
+                android:text="颜色分类:纯色" 
+               style="@style/gray_12"
+                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                />
+            
+        </RelativeLayout>
+        </RelativeLayout>
+         <View style="@style/divider_nomal_horizontal" />
+         <RelativeLayout 
+             android:padding="10dp"
+              android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+             
+             >
+             <LinearLayout 
+                 android:layout_alignParentRight="true"
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                 >
+            <TextView 
+                  android:layout_marginRight="4dp"
+                style="@style/black_12"
+                android:text="交易金额:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                />
+            <TextView 
+                 style="@style/black_12"
+                android:text="¥"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                />
+            <TextView 
+                 android:id="@+id/tv_mine_refund_paymoney"
+                android:layout_marginRight="8dp"
+                 style="@style/black_14"
+                android:text="1068.00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                />
+            <TextView 
+                android:layout_marginRight="4dp"
+                style="@style/black_12"
+                android:text="退款金额:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                />
+            <TextView 
+                 style="@style/red_12"
+                android:text="¥"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                />
+            <TextView 
+                    android:id="@+id/tv_mine_refund_refundmoney"
+                style="@style/red_14"
+                android:text="1068.00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                />
+                 
+                 
+                 
+             </LinearLayout>
+             
+             
+             
+         </RelativeLayout>
+        
+        
+        
+    </LinearLayout>
+
+</android.support.v7.widget.CardView><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/item_mine_refund.xml -->

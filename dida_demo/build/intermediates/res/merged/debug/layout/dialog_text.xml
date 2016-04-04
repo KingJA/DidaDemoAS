@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:id="@+id/rl_save_image"
+    android:background="@drawable/shape_lnull_bwhite_r2"
+    >
+    <TextView 
+        style="@style/black_18"
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="保存到本地"
+        />
+
+</RelativeLayout>
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/dialog_text.xml -->

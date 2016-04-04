@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_address_update_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <LinearLayout
+                android:id="@+id/ll_address_update_area"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:background="@null"
+                    android:id="@+id/tv_address_update_area"
+                    style="@style/black_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="浙江省温州市龙湾区" />
+
+                <TextView
+                    style="@style/gray_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="所在地区" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/right_arr_gray" />
+
+        </RelativeLayout>
+        <View style="@style/divider_nomal_horizontal" />
+
+
+
+            <LinearLayout
+                android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:textCursorDrawable="@drawable/cursor_et"
+                    android:background="@null"
+                    android:id="@+id/et_address_update_address"
+                    style="@style/black_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="农业开发区文昌路209号红连文创园811" />
+
+                <TextView
+                    style="@style/gray_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="详细地址" />
+            </LinearLayout>
+
+
+        <View style="@style/divider_nomal_horizontal" />
+
+
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:id="@+id/ll_mine_personal_address_edit_name_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:textCursorDrawable="@drawable/cursor_et"
+                        android:background="@null"
+                        android:id="@+id/et_address_update_name"
+                        style="@style/black_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="马云" />
+
+                    <TextView
+                        style="@style/gray_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="收货人姓名" />
+                </LinearLayout>
+
+
+        <View style="@style/divider_nomal_horizontal" />
+
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/ll_mine_personal_address_edit_phone_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <EditText
+                        android:textCursorDrawable="@drawable/cursor_et"
+                        android:background="@null"
+                        android:id="@+id/et_address_update_phone"
+                        style="@style/black_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="18868888888" />
+
+                    <TextView
+                        style="@style/gray_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="手机号码" />
+                </LinearLayout>
+
+
+        <View style="@style/divider_nomal_horizontal" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="12dp" >
+
+            <TextView
+                style="@style/black_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="设为默认地址" />
+
+            <CheckBox
+                android:id="@+id/cb_address_update_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <View style="@style/divider_nomal_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_address_update_delete"
+            style="@style/red_16"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_l1red_bwhite_r2"
+            android:minHeight="0dp"
+            android:padding="8dp"
+            android:text="删除" />
+
+        <Button
+            android:id="@+id/btn_address_update_confirm"
+            style="@style/white_16"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_red2red_deep"
+            android:minHeight="0dp"
+            android:padding="8dp"
+            android:text="保存" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/activity_mine_personal_address_edit.xml -->

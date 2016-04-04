@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="1dp"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingRight="16dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_show_select"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+              android:gravity="center"
+                android:id="@+id/cb_item_show"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_centerVertical="true"
+                android:button="@drawable/checkbox_checked_style" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_item_show_image"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:scaleType="centerCrop"
+           />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp" >
+
+            <TextView
+                android:id="@+id/tv_item_show_title"
+                style="@style/black_14_line2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alice Handmade 派对婚礼甜品 金色小清新蛋糕甜品。" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:id="@+id/tv_item_show_param"
+                style="@style/gray_12_line1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_below="@id/tv_item_show_title"
+                android:text="奶油味 2寸" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true" >
+
+                <TextView
+                    android:id="@+id/saidan_rmb"
+                    style="@style/red_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="¥" />
+
+                <TextView
+                    android:layout_marginLeft="4dp"
+                    android:id="@+id/tv_item_show_price"
+                    style="@style/red_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/saidan_rmb"
+                    android:text="168.00" />
+
+                <TextView
+                    android:id="@+id/tv_item_show_count"
+                    style="@style/gray_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_marginRight="4dp"
+                    style="@style/gray_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/tv_item_show_count"
+                    android:text="X" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

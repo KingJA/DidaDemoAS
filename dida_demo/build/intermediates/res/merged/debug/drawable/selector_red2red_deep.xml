@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/shape_lnull_bredd_r4" /> <!-- pressed -->
+    <item android:drawable="@drawable/shape_lnull_bred_r4" /> <!-- default_img -->
+</selector><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/drawable/selector_red2red_deep.xml -->

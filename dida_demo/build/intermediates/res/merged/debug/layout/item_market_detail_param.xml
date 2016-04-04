@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_market_detail_paramName"
+        style="@style/gray_14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:text="屏幕尺寸屏" />
+
+    <TextView
+          android:id="@+id/tv_market_detail_paramContent"
+        style="@style/black_14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center_vertical"
+        android:text="屏幕尺寸屏幕尺寸屏幕尺寸屏幕尺寸屏幕尺寸幕尺寸屏幕尺寸屏幕尺寸幕尺寸屏幕尺寸屏幕尺寸幕尺寸屏幕尺寸屏幕尺寸屏幕尺寸屏幕尺寸屏幕尺寸屏幕尺寸屏幕尺寸屏幕尺寸屏幕尺寸屏幕尺寸屏幕尺寸" />
+
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/item_market_detail_param.xml -->

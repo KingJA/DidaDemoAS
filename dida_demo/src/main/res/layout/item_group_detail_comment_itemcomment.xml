@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_itemcomment_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="东西吸毒回复男滴倍感:老乞丐，今天就不打了，再打下去也分不出胜负，明年今日我们各带一个徒弟，让徒弟分胜负，你说怎样？" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_itemcomment_date"
+            style="@style/item_content_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015-08-25" />
+    </RelativeLayout>
+
+</LinearLayout>

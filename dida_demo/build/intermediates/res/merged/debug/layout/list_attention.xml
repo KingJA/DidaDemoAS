@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:background="@color/white"
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/plv_attention_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        android:scrollbars="none"
+        android:divider="@color/gray_light"
+        android:dividerHeight="1px"
+        ptr:ptrDrawable="@drawable/mg_loading"
+        ptr:ptrMode="pullFromEnd"
+        ptr:ptrScrollingWhileRefreshingEnabled="true"
+        />
+</RelativeLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/list_attention.xml -->

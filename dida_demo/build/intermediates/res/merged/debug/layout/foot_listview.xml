@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:orientation="vertical"
+   >
+ <LinearLayout 
+      android:padding="8dp" 
+      android:gravity="center"
+      android:orientation="horizontal"
+     android:id="@+id/ll_loadMore"
+      android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+ <ProgressBar
+       android:id="@+id/progressBar1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+   <TextView 
+            android:id="@+id/tv_address"
+            android:text="正在加载..."
+             android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            />
+
+
+</LinearLayout>
+ <LinearLayout 
+     android:visibility="gone"
+      android:padding="16dp" 
+      android:gravity="center"
+      android:orientation="horizontal"
+     android:id="@+id/ll_noMore"
+      android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+   <TextView 
+            android:text="已经到底啦..."
+             android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            />
+
+  
+</LinearLayout>
+</LinearLayout>
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/foot_listview.xml -->

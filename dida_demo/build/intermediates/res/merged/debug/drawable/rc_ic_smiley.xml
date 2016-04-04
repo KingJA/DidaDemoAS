@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/rc_ic_smiley_selected" android:state_selected="true"/>
+    <item android:drawable="@drawable/rc_ic_smiley_normal"/>
+</selector><!-- From: file:/E:/wxy/workpace/DidaDemoAS/iMKit/src/main/res/drawable/rc_ic_smiley.xml --><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/build/intermediates/exploded-aar/DidaDemoAS/iMKit/unspecified/res/drawable/rc_ic_smiley.xml -->

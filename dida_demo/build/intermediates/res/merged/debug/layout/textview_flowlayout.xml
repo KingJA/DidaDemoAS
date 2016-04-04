@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dida.first.view.MyGridViewTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/black_14"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_l1red_bwhite_r12"
+    android:ellipsize="marquee"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:padding="8dp"
+    android:scrollHorizontally="true"
+    android:singleLine="true"
+    android:text="按钮" >
+
+</com.dida.first.view.MyGridViewTextView><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/textview_flowlayout.xml -->

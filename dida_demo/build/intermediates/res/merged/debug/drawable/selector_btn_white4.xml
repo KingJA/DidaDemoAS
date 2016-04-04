@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/shape_lblack_bgray_light_r4" /> <!-- pressed -->
+    <item android:drawable="@drawable/shape_lblack_bwhite_r4" /> <!-- default_img -->
+</selector><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/drawable/selector_btn_white4.xml -->

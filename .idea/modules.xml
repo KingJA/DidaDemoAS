@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DidaDemoAS.iml" filepath="$PROJECT_DIR$/DidaDemoAS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cardview/cardview.iml" filepath="$PROJECT_DIR$/cardview/cardview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dida_demo/dida_demo.iml" filepath="$PROJECT_DIR$/dida_demo/dida_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iMKit/iMKit.iml" filepath="$PROJECT_DIR$/iMKit/iMKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iconlibrary/iconlibrary.iml" filepath="$PROJECT_DIR$/iconlibrary/iconlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/image_loader_library/image_loader_library.iml" filepath="$PROJECT_DIR$/image_loader_library/image_loader_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadlibrary/loadlibrary.iml" filepath="$PROJECT_DIR$/loadlibrary/loadlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttputils/okhttputils.iml" filepath="$PROJECT_DIR$/okhttputils/okhttputils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulltopushlibrary/pulltopushlibrary.iml" filepath="$PROJECT_DIR$/pulltopushlibrary/pulltopushlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xutillibrary/xutillibrary.iml" filepath="$PROJECT_DIR$/xutillibrary/xutillibrary.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 导航栏字体颜色 -->
+    <color name="tab_text_selected">#ffffff</color>
+    <color name="tab_text_nomal">#677179</color>
+    <!-- 导航栏色块颜色 -->
+    <color name="tab_color_selected">#FE5B5F</color>
+    <color name="black_bg">#262a2e</color>
+    <!-- 选择色块颜色 -->
+    <color name="select_color_selected">#FE5B5F</color>
+    <color name="select_color_nomal">#ffffff</color>
+    <!-- 选择字体颜色 -->
+    <color name="select_text_selected">#ffffff</color>
+    <color name="select_text_nomal">#677179</color>
+    <!-- Item标题颜色 -->
+    <color name="item_title">#505353</color>
+    <color name="item_content_gray">#909393</color>
+    <color name="item_price_red">#fe5d5f</color>
+    <color name="font_gray">#909393</color>
+    <color name="font_black">#262a2e</color>
+    <color name="font_white">#ffffff</color>
+    <color name="font_red">#fe5d5f</color>
+
+    <!-- 分割线 -->
+    <color name="blue_deep">#003455</color>
+    <color name="blue_light">#328fca</color>
+   <!-- <color name="gray">#EBEBEB</color>-->
+    <color name="gray_tip">#999999</color>
+    <color name="gray_content">#666666</color>
+    <color name="blue_font">#328FCA</color>
+    <color name="blue_comment">#005078</color>
+    <color name="gray_comment">#EDEDED</color>
+    <color name="gray_divider">#dadada</color>
+    <color name="yellow">#FF992C</color>
+    <color name="half_transparency">#4A000000</color>
+    <color name="transparency_30">#B2000000</color>
+    <color name="transparency_70">#B3000000</color>
+    <color name="gray_deep">#8e9397</color>
+    <color name="gray_light">#eeeeee</color>
+    <color name="gray_bg">#fcfcfc</color>
+    <color name="red">#ff5a5f</color>
+    <color name="red_deep">#be4649</color>
+    <color name="red_light">#e79d9f</color>
+    <color name="black">#333333</color>
+    <color name="black_light">#26292e</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#86c143</color>
+    <color name="light_gray">#99a4b7</color>
+    <color name="deep_gray">#394257</color>
+    <color name="border_gray">#d9dfe5</color>
+    <color name="bg_gray">#e1e1e1</color>
+    <color name="btn_gray">#d1d1d1</color>
+    <color name="glass_gall">#c2ebef</color>
+    <color name="light_blue">#87d0f2</color>
+    <color name="bg_root">#E5E5E5</color>
+    <color name="window_background">#FFF5F5F5</color>
+
+
+    <color name="color_0">#ff6666</color>
+    <color name="color_1">#ccccff</color>
+    <color name="color_2">#9999cc</color>
+    <color name="color_3">#ffffcc</color>
+    <color name="color_4">#cccc33</color>
+    <color name="color_5">#cc9966</color>
+    <color name="color_6">#cccccc</color>
+    <color name="color_7">#cccc99</color>
+    <color name="color_8">#cc9966</color>
+    <color name="color_9">#ff99cc</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_personal_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:padding="12dp" >
+
+        <TextView
+            style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="个人头像" />
+
+        <ImageView
+            android:id="@+id/iv_touxiang_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/right_open" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_toLeftOf="@id/iv_touxiang_open"
+            xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/sdv_userInfo_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="16dp"
+            fresco:placeholderImage="@color/gray_light"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:roundAsCircle="true"
+            />
+    </RelativeLayout>
+
+    <View style="@style/divider_nomal_horizontal" />
+
+    <RelativeLayout
+          android:id="@+id/rl_mine_personal_nick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="12dp" >
+
+        <TextView
+            style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="昵称" />
+
+        <ImageView
+            android:id="@+id/iv_nicheng_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/right_open" />
+
+        <TextView
+            android:id="@+id/tv_mine_personal_nick"
+            style="@style/gray_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/iv_nicheng_open"
+            android:text="" />
+    </RelativeLayout>
+
+    <View style="@style/divider_nomal_horizontal" />
+
+    <RelativeLayout
+          android:id="@+id/rl_mine_personal_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="12dp" >
+
+        <TextView
+            style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="性别" />
+
+        <ImageView
+            android:id="@+id/iv_xingbie_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/right_open" />
+
+        <TextView
+             android:id="@+id/tv_mine_personal_gender"
+            style="@style/gray_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/iv_xingbie_open"
+            android:text=""
+           />
+    </RelativeLayout>
+
+    <View style="@style/divider_nomal_horizontal" />
+
+    <RelativeLayout
+          android:id="@+id/rl_mine_personal_safe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="12dp" >
+
+        <TextView
+            style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="账号与安全" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/right_open" />
+    </RelativeLayout>
+
+    <View style="@style/divider_nomal_horizontal" />
+
+    <RelativeLayout
+          android:id="@+id/rl_mine_personal_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="12dp" >
+
+        <TextView
+            style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="我的收货地址" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/right_open" />
+    </RelativeLayout>
+
+    <View style="@style/divider_nomal_horizontal" />
+
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/activity_mine_personal.xml -->

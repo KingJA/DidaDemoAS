@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_save_image"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_lnull_bwhite_r2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_upload_head_image"
+        style="@style/black_18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="图库" />
+
+    <View style="@style/divider_nomal_horizontal" />
+
+    <TextView
+           android:id="@+id/tv_upload_head_camera"
+        style="@style/black_18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="相机" />
+
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/dialog_upload_head.xml -->

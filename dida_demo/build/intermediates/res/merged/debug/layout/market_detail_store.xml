@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardElevation="2px" >
+
+    <LinearLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_store_des"
+              android:paddingLeft="8dp" 
+        android:paddingRight="8dp" 
+        android:paddingTop="12dp" 
+        android:paddingBottom="12dp" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/selector_transparent2gray" >
+
+            <com.meg7.widget.CircleImageView
+                android:id="@+id/civ_market_detail_store_name"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/default_head_72"
+                android:scaleType="centerCrop" />
+
+            <!--<LinearLayout-->
+                <!---->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:orientation="vertical" >-->
+
+                <TextView
+                    android:layout_marginLeft="8dp"
+                      android:id="@+id/tv_market_detail_store_name"
+                    style="@style/black_12_line1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="红黄蓝童装" />
+
+                <!--<TextView-->
+                      <!--android:id="@+id/tv_market_detail_store_des"-->
+                    <!--style="@style/gray_12"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="AAMAI红黄蓝童装旗舰店" />-->
+            <!--</LinearLayout>-->
+        </LinearLayout>
+
+        <View
+            style="@style/divider_nomal_horizontal"
+           />
+        <LinearLayout 
+              android:paddingLeft="8dp" 
+        android:paddingRight="8dp" 
+        android:paddingTop="12dp" 
+        android:paddingBottom="12dp" 
+            android:orientation="horizontal"
+             android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            >
+             <LinearLayout 
+                 android:gravity="center"
+            android:orientation="horizontal"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+                    android:layout_height="wrap_content"
+            >
+           <TextView
+                    style="@style/black_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="描述相符" />
+           <TextView
+                 android:id="@+id/tv_market_detail_store_description"
+               android:layout_marginLeft="4dp"
+                android:textColor="@color/green"
+                    style="@style/black_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.8" />
+           <TextView
+               android:id="@+id/tv_market_detail_store_description_state"
+              android:textSize="12sp"
+               android:layout_marginLeft="4dp"
+               android:textColor="@color/green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="↓" />
+            
+            
+        </LinearLayout>
+             <LinearLayout 
+                 android:gravity="center"
+            android:orientation="horizontal"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+                    android:layout_height="wrap_content"
+            >
+           <TextView
+              
+                    style="@style/black_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="服务态度" />
+           <TextView
+               android:id="@+id/tv_market_detail_store_service"
+               android:layout_marginLeft="4dp"
+                android:textColor="@color/red"
+                    style="@style/black_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5.0" />
+           <TextView
+                 android:id="@+id/tv_market_detail_store_service_state"
+               android:textSize="12sp"
+               android:layout_marginLeft="4dp"
+               android:textColor="@color/red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="↑" />
+            
+            
+        </LinearLayout>
+             <LinearLayout 
+                 android:gravity="center"
+            android:orientation="horizontal"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+                    android:layout_height="wrap_content"
+            >
+           <TextView
+                    style="@style/black_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="物流服务" />
+           <TextView
+               android:id="@+id/tv_market_detail_store_wuliu"
+               android:layout_marginLeft="4dp"
+                android:textColor="@color/green"
+                    style="@style/black_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.8" />
+           <TextView
+               android:id="@+id/tv_market_detail_store_wuliu_state"
+               android:textSize="12sp"
+               android:layout_marginLeft="4dp"
+               android:textColor="@color/green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="↓" />
+            
+            
+        </LinearLayout>
+            
+        
+            
+        </LinearLayout>
+               <View
+            style="@style/divider_nomal_horizontal"
+          />
+                <LinearLayout
+                      android:paddingLeft="8dp" 
+        android:paddingRight="8dp" 
+        android:paddingTop="12dp" 
+        android:paddingBottom="12dp" 
+                     android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   >
+               <LinearLayout 
+                   android:id="@+id/ll_market_detail_store_list"
+                     android:gravity="center_horizontal"
+                   android:layout_marginRight="24dp"
+                   android:paddingTop="8dp"
+                   android:paddingBottom="8dp"
+                   android:paddingRight="24dp"
+                   android:paddingLeft="24dp"
+                   android:background="@drawable/shape_l1gray_bnull_r2"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   >
+                   
+                    <TextView
+             style="@style/gray_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="店铺商品分类" />
+               </LinearLayout>
+              
+               <LinearLayout 
+                   android:id="@+id/ll_market_detail_store_enter"
+                  android:gravity="center_horizontal"
+                   android:layout_marginLeft="24dp"
+                   android:paddingTop="8dp"
+                   android:paddingBottom="8dp"
+                   android:paddingRight="24dp"
+                   android:paddingLeft="24dp"
+                   android:background="@drawable/shape_l1gray_bnull_r2"
+               android:layout_width="0dp"
+                   android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   >
+                   
+                    <TextView
+             style="@style/gray_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="进店逛逛" />
+               </LinearLayout>
+               </LinearLayout>
+               
+        
+    </LinearLayout>
+
+</android.support.v7.widget.CardView><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/market_detail_store.xml -->

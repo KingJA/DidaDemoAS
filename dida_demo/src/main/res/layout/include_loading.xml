@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_loading">
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/pb_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/gray_14"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="正在加载..."
+        android:layout_below="@id/pb_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

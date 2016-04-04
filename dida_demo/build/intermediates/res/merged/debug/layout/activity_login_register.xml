@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+   <TextView 
+       android:layout_gravity="center_horizontal"
+       android:text="用户注册页面"
+       android:textSize="24sp"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+       />
+   <EditText 
+       android:layout_marginTop="24dp"
+       android:id="@+id/et_userid"
+       android:hint="输入用户名"
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+
+    <Button
+        android:onClick="login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录" >
+    </Button>
+
+    <Button
+         android:onClick="register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册" >
+    </Button>
+
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/activity_login_register.xml -->

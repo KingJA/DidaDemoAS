@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_pingou_root">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:transcriptMode="normal"
+        android:id="@+id/plv_pingou_comment"
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="#000000"
+        android:dividerHeight="0dp"
+        android:listSelector="#00000000"
+        android:scrollbars="none"
+        ptr:ptrDrawable="@drawable/mg_loading"
+        ptr:ptrMode="both"
+        ptr:ptrScrollingWhileRefreshingEnabled="true" />
+
+    <View style="@style/divider_nomal_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_comment"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="6dp">
+
+
+        <EditText
+            android:textCursorDrawable="@drawable/cursor_et"
+            android:id="@+id/et_pingou_comment_content"
+            android:gravity="center_vertical"
+            style="@style/black_14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_l1divgray_bwhite_r4"
+            android:paddingBottom="4dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:id="@+id/tv_pingou_comment_send"
+            style="@style/white_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/selector_red2red_deep"
+            android:paddingBottom="4dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="4dp"
+            android:text="发送" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_keyboard"
+        android:gravity="center"
+        android:text="键盘墙"
+        android:background="#eeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:visibility="gone"/>
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/act_detail_pingou_comment.xml -->

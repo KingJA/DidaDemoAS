@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="60dp"
+    android:background="#508b8b8b"
+    android:gravity="center"
+   >
+
+    <TextView 
+        android:gravity="center"
+        android:text="ListView顶部ICON"
+        android:layout_width="wrap_content"
+    android:layout_height="60dp" 
+        
+        />
+  
+
+</RelativeLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/head_left_slidingmenu.xml -->

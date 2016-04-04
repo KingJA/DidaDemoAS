@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="4dp">
+
+            <com.meg7.widget.CircleImageView
+                android:id="@+id/civ_comment_market_icon"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/market_icon" />
+
+            <TextView
+                android:id="@+id/tv_comment_market_name"
+                style="@style/black_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="索马里玛丽" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_comment_market_content"
+            style="@style/gray_content_12_line8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+
+            android:text="这件裙子非常喜欢，做工好，面料也不错，和描述一样好，穿起来非常合适，并且不会看出腰腹的肉肉哦～天气凉了，刚好合穿，非常满意！如果卖家真像我的物流信息那样发顺丰快递，我估计早都穿上了……这件裙子非常喜欢，做工好，面料也不错，和描述一样好，穿起来非常合适，并且不会看出腰腹的肉肉哦～天气凉了，刚好合穿，非常满意！如果卖家真像我的物流信息那样发顺丰快递，我估计早都穿上了这件裙子非常喜欢，做工好，面料也不错，和描述一样好，穿起来非常合适，并且不会看出腰腹的肉肉哦～天气凉了，刚好合穿，非常满意！如果卖家真像我的物流信息那样发顺丰快递，我估计早都穿上了……这件裙子非常喜欢，做工好，面料也不错，和描述一样好，穿起来非常合适，并且不会看出腰腹的肉肉哦～天气凉了，刚好合穿，非常满意！如果卖家真像我的物流信息那样发顺丰快递，我估计早都穿上了" />
+
+        <com.dida.first.view.AbsListView.MyGridView
+
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:id="@+id/mgv_comment_market_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:horizontalSpacing="8dp"
+            android:listSelector="#00000000"
+            android:numColumns="5"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="8dp" />
+
+        <TextView
+            android:id="@+id/tv_comment_market_after"
+            style="@style/blue_content_12_line8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="4dp"
+            android:text="[8天后追加]质量很好 穿的挺显身材的 很喜欢。" />
+
+        <com.dida.first.view.AbsListView.MyGridView
+
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:id="@+id/mgv_comment_market_afterimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:horizontalSpacing="8dp"
+            android:listSelector="#00000000"
+            android:numColumns="5"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="4dp">
+
+            <TextView
+                android:id="@+id/tv_comment_market_date"
+                style="@style/gray_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="2015-11-11" />
+
+            <TextView
+                android:id="@+id/tv_comment_market_param"
+                style="@style/gray_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="8dp"
+                android:text="颜色分类:格子 尺码:S" />
+        </LinearLayout>
+    </LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="@drawable/interest" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp" >
+
+            <View
+                android:id="@+id/view_favorite"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#d2d2d2" >
+            </View>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="2"
+                android:text="最酷太绚丽的舞步，你要跟我学学学学学学学学学学吗，就来新东方舞蹈学院，不用998，不用668，只要88，现在就来，马上就来，报销来回车票，还有惊喜哦,等什么呢" />android:text="" />
+
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/view_favorite" >
+
+                <TextView
+                    android:textColor="@color/tab_text_selected"
+                      android:layout_centerVertical="true"
+                    android:id="@+id/favorite_rmb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥" />
+
+                <TextView
+                      android:textColor="@color/tab_text_selected"
+                    android:layout_toRightOf="@id/favorite_rmb"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="186" />
+                
+                <ImageView 
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shoucang"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/item_favorite.xml -->

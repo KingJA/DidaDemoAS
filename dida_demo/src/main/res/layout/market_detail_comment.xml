@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardElevation="2px">
+
+    <LinearLayout
+        android:id="@+id/ll_item_market_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+            <TextView
+                android:padding="8dp"
+                android:id="@+id/tv_market_detail_comment_count"
+                style="@style/black_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="125" />
+
+<LinearLayout
+    android:id="@+id/ll_item_market_commentContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <View style="@style/divider_nomal_horizontal"/>
+        <include layout="@layout/include_market_comment" />
+
+        <View style="@style/divider_nomal_horizontal" />
+
+        <RelativeLayout
+            android:id="@+id/rl_market_detail_comment_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+                style="@style/gray_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="查看更多" />
+        </RelativeLayout>
+</LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

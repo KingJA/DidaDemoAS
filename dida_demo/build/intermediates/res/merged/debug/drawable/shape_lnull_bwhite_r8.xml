@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle">
+    
+<corners android:radius="8dp"/>
+<solid android:color="@color/white"/>
+</shape>
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/drawable/shape_lnull_bwhite_r8.xml -->

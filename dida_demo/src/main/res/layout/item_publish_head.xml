@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_item_show_edit_icon"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                android:scaleType="centerCrop" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp">
+
+                <TextView
+                    android:id="@+id/tv_item_show_edit_title"
+                    style="@style/black_14_line2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alice Handmade 派对婚礼甜品 金色小清新蛋糕甜品。" />
+
+                <TextView
+                    android:id="@+id/tv_item_show_edit_param"
+                    style="@style/gray_12_line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_item_show_edit_title"
+                    android:layout_marginTop="4dp"
+                    android:text="Alice Handmade 派对婚礼甜品 金色小清新蛋糕甜品。哈根达斯劲爆大削价，买一送一第二份半价，集满9颗龙珠直接送你到非洲，而且有机会参加尼玛大本营" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true">
+
+                    <TextView
+                        android:id="@+id/saidan_rmb"
+                        style="@style/red_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="¥" />
+
+                    <TextView
+
+                        android:id="@+id/tv_item_show_edit_price"
+                        style="@style/red_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/saidan_rmb"
+                        android:text="168.00" />
+
+                    <TextView
+                        android:id="@+id/tv_item_show_edit_count"
+                        style="@style/gray_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="1" />
+
+                    <TextView
+                        android:layout_marginRight="4dp"
+                        style="@style/gray_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/tv_item_show_edit_count"
+                        android:text="X" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>

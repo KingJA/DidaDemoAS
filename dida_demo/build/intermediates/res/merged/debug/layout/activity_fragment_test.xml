@@ -1,0 +1,9 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id_rl_fragment_container"
+                tools:context="com.zhy.base.loadandretry.test.FragmentTestActivity">
+
+</RelativeLayout>
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/loadlibrary/src/main/res/layout/activity_fragment_test.xml --><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/build/intermediates/exploded-aar/DidaDemoAS/loadlibrary/unspecified/res/layout/activity_fragment_test.xml -->

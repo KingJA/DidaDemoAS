@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <com.meg7.widget.CircleImageView
+
+          xmlns:android="http://schemas.android.com/apk/res/android"
+             android:scaleType="centerCrop"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/invate_icon"
+    android:id="@+id/civ_view_invate_icon"/>

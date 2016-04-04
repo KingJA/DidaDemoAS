@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/civ_pingou_detail_comment_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:placeholderImage="@color/gray_light"
+        fresco:roundAsCircle="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_pingou_detail_comment_name"
+            style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Walk走路" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_pingou_detail_comment_floor"
+                style="@style/black_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19" />
+
+
+            <TextView
+                android:id="@+id/tv_pingou_detail_comment_date"
+                style="@style/gray_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="11-25 12:55" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_pingou_detail_comment_content"
+            style="@style/gray_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/selector_transparent2gray"
+            android:text="这辆还不错，比起上次我在迪拜那辆限量版保时捷877速度上有些优势。" />
+
+        <com.dida.first.view.AbsListView.MyGridView
+
+            android:id="@+id/mgv_pingou_detail_comment_imgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="4dp"
+            android:numColumns="5" />
+
+        <com.dida.first.view.AbsListView.MyListView
+            android:id="@+id/mlv_pingou_detail_comment_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_comment"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/gray_divider"
+            android:dividerHeight="1px"
+            android:listSelector="#00000000"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

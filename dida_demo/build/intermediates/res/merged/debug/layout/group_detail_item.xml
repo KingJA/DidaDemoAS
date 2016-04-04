@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardElevation="2px">
+
+    <com.dida.first.view.AbsListView.MyListView
+        android:id="@+id/lv_group_detail_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/gray_divider"
+        android:dividerHeight="1px"
+
+        />
+
+
+</android.support.v7.widget.CardView>
+    <!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/group_detail_item.xml -->

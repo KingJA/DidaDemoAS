@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardElevation="2px" 
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.meg7.widget.CircleImageView
+             android:scaleType="centerCrop"
+            android:id="@+id/iv_yaoyue_aa_touxiang"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/ququn_head" />
+        <TextView
+             android:id="@+id/tv_yaoyue_aa_title"
+            android:textColor="#505353"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="24dp"
+            android:layout_toRightOf="@id/iv_yaoyue_aa_touxiang"
+            android:ellipsize="end"
+            android:lines="2"
+            android:text="恩恩熊童装女童连衣裙夏装裙子宝宝公主裙2015婴儿衣服80204，双十一劲爆大活动，满100减200，满300减500." />
+
+  
+    </RelativeLayout>
+<RelativeLayout 
+     android:layout_marginLeft="42dp"
+    android:layout_marginTop="8dp"
+     android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    
+    >
+        <LinearLayout 
+            android:layout_centerVertical="true"
+           android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+    
+    <TextView 
+         android:textSize="10sp"
+        android:textColor="#909393"
+        android:text="销售:"
+         android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+        />
+    <TextView 
+         android:id="@+id/tv_yaoyue_aa_count"
+         android:textSize="10sp"
+        android:textColor="#909393"
+        android:text="21688"
+         android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+        />
+        </LinearLayout>
+        
+   <LinearLayout 
+       android:layout_alignParentRight="true"
+       android:orientation="horizontal"
+       
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+       >
+        <TextView 
+        android:textSize="14sp"
+        android:textColor="#fe5d5f"
+        android:text="¥"
+         android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+        />
+        <TextView 
+             android:id="@+id/tv_yaoyue_aa_price"
+         android:textSize="14sp"
+        android:textColor="#fe5d5f"
+        android:text="668.00"
+         android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+        />
+       
+       
+   </LinearLayout>     
+    
+    
+</RelativeLayout>
+
+<ImageView 
+     android:id="@+id/iv_yaoyue_aa_image"
+    android:layout_gravity="center"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/product1"
+     android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+    
+    />
+  </LinearLayout>
+
+</android.support.v7.widget.CardView>

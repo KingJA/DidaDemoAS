@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <Button
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接融云服务器" >
+    </Button>
+
+    <Button
+        android:id="@android:id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动列表会话页面" >
+    </Button>
+<LinearLayout 
+     android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    ><EditText 
+        
+        android:id="@+id/et_friend"
+        android:hint="和谁聊"
+        android:layout_weight="1"
+         android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        
+        
+        />
+        
+        
+        <Button
+        android:id="@android:id/button2"
+       android:layout_weight="1"
+         android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="会话页面" >
+    </Button>
+        <Button
+            android:onClick="buy"
+       android:layout_weight="1"
+         android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="我正在看" >
+    </Button>
+    
+    
+    
+</LinearLayout>
+    
+</LinearLayout>

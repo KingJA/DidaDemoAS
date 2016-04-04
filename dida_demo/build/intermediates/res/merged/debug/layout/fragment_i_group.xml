@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<ListView 
+    android:id="@+id/lv_interest_group"
+    android:divider="#000000"
+    android:dividerHeight="0dp"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    
+    />
+
+</FrameLayout>
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/fragment_i_group.xml -->

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardElevation="2px" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/cb_mine_shopcar_check"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:button="@drawable/checkbox_checked_style" />
+
+                <LinearLayout
+                    android:id="@+id/ll_mine_shopcar_shop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/shop" />
+
+                    <TextView
+                         android:id="@+id/tv_mine_shopcar_shopname"
+                        style="@style/black_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="永和豆浆的第一家分店" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/right_open" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="16dp"
+                    android:background="@color/gray_tip" />
+
+                <TextView
+                    android:id="@+id/tv_mine_shopcar_edit"
+                    style="@style/black_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="编辑" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View style="@style/divider_nomal_horizontal" />
+
+        <com.dida.first.view.AbsListView.MyListView
+            android:id="@+id/mylv_shopcar_inner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/gray_tip"
+            android:dividerHeight="1dp"
+            android:listSelector="#00000000" >
+        </com.dida.first.view.AbsListView.MyListView>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

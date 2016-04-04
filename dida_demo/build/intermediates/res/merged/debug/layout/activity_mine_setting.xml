@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/gray_light">
+    <LinearLayout 
+    android:layout_marginTop="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:id="@+id/ll_root">
+        
+        <View style="@style/divider_nomal_horizontal" />
+    <RelativeLayout
+        android:id="@+id/rl_mine_setting_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp" >
+
+        <TextView
+             style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="分享给好友" />
+
+        <ImageView
+             android:layout_marginRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/right_open" />
+    </RelativeLayout>
+    <View style="@style/divider_nomal_horizontal" />
+    <RelativeLayout
+        android:id="@+id/rl_mine_setting_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp" >
+
+        <TextView
+             style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="意见反馈" />
+
+        <ImageView
+              android:layout_marginRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/right_open" />
+    </RelativeLayout>
+    <View style="@style/divider_nomal_horizontal" />
+    <RelativeLayout
+        android:id="@+id/rl_mine_setting_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp" >
+
+        <TextView
+             style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="使用帮助" />
+
+        <ImageView
+              android:layout_marginRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/right_open" />
+    </RelativeLayout>
+    <View style="@style/divider_nomal_horizontal" />
+    </LinearLayout>
+<LinearLayout 
+    android:layout_marginTop="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+ <View style="@style/divider_nomal_horizontal" />
+    <RelativeLayout
+        android:id="@+id/rl_mine_setting_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp" >
+
+        <TextView
+             style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="检查更新" />
+        <ImageView
+              android:layout_marginRight="8dp"
+              android:id="@+id/iv_setting_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/right_open" />
+        <TextView
+              android:id="@+id/tv_mine_setting_version"
+            style="@style/gray_14"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@id/iv_setting_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="V2.6.8" />
+
+        
+    </RelativeLayout>
+    <View style="@style/divider_nomal_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_setting_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp" >
+
+        <TextView
+            style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="清理缓存" />
+        <ImageView
+              android:layout_marginRight="8dp"
+            android:id="@+id/iv_setting_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/right_open" />
+        <TextView
+            android:id="@+id/tv_mine_setting_size"
+            style="@style/gray_14"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@id/iv_setting_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="0.2M" />
+
+    </RelativeLayout>
+    <View style="@style/divider_nomal_horizontal" />
+    <RelativeLayout
+        android:id="@+id/rl_mine_setting_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp" >
+
+        <TextView
+             style="@style/black_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="关于aamai" />
+
+        <ImageView
+              android:layout_marginRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/right_open" />
+    </RelativeLayout>
+    <View style="@style/divider_nomal_horizontal" />
+</LinearLayout>
+
+<Button 
+    android:id="@+id/btn_mine_setting_quit"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:padding="8dp"
+    style="@style/white_16"
+    android:text="退出当前账号"
+    android:minHeight="0dp"
+     android:background="@drawable/selector_red2red_deep"
+    android:layout_marginTop="40dp"
+     android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    
+    />
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/activity_mine_setting.xml -->

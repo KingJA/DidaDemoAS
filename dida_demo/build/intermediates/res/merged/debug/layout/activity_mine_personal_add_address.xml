@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_light"
+        android:orientation="vertical"
+        android:paddingTop="16dp" >
+
+        <LinearLayout
+            android:id="@+id/rl_mine_personal_add_address_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingBottom="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp" >
+
+            <TextView
+                style="@style/black_14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="收货人:" />
+
+            <EditText
+                 style="@style/black_14"
+                android:id="@+id/et_add_address_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="7"
+                android:background="@null" />
+        </LinearLayout>
+
+        <View style="@style/divider_nomal_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingBottom="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp" >
+
+            <TextView
+                style="@style/black_14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="手机号:" />
+
+            <EditText
+                android:inputType="number"
+                android:maxLength="11"
+                 style="@style/black_14"
+                android:id="@+id/et_add_address_phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="7"
+                android:background="@null" />
+        </LinearLayout>
+
+        <View style="@style/divider_nomal_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingBottom="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp" >
+
+            <TextView
+                style="@style/black_14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="省市区:" />
+
+            <TextView
+                android:id="@+id/tv_add_address_province"
+                style="@style/black_14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="7" />
+        </LinearLayout>
+
+        <View style="@style/divider_nomal_horizontal" />
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingBottom="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp" >
+
+            <TextView
+                style="@style/black_14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="详细地址:" />
+
+            <EditText
+               android:padding="4dp"
+                android:gravity="top|left"
+                android:lines="3"
+                 style="@style/black_14"
+                android:id="@+id/et_add_address_address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="7"
+                android:background="@drawable/shape_l1gray_bwhite_r4" />
+        </LinearLayout>
+
+        <View style="@style/divider_nomal_horizontal" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp" >
+
+        <TextView
+            style="@style/black_14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="默认地址:" />
+
+        <CheckBox
+            android:id="@+id/cb_add_address_default"
+            style="@style/black_14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="7"
+             />
+    </LinearLayout>
+    <View style="@style/divider_nomal_horizontal" />
+        
+    </LinearLayout>
+
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/activity_mine_personal_add_address.xml -->

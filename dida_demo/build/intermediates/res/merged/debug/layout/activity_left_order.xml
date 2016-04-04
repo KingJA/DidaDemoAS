@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#508b8b8b"
+    android:orientation="vertical" >
+    
+<!-- 左下，父布局是RelativeLayout -->
+    <LinearLayout
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/rl_left_my_order_all"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1" >
+<!-- 父布局 -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical" >
+<!-- 字体 -->
+                <TextView
+                    android:id="@+id/tv_left_my_order_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="全部" />
+<!-- 底部线条 -->
+                <View
+                    android:id="@+id/view_left_my_order_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#b869ba" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+             android:id="@+id/rl_left_my_order_pay"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1" >
+<!-- 父布局 -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical" >
+<!-- 字体 -->
+                <TextView
+                     android:id="@+id/tv_left_my_order_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="待付款" />
+<!-- 底部线条 -->
+                <View
+                    android:id="@+id/view_left_my_order_pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#b869ba" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+             android:id="@+id/rl_left_my_order_send"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1" >
+<!-- 父布局 -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical" >
+<!-- 字体 -->
+                <TextView
+                     android:id="@+id/tv_left_my_order_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="待发货" />
+<!-- 底部线条 -->
+                <View
+                    android:id="@+id/view_left_my_order_send"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#b869ba" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+             android:id="@+id/rl_left_my_order_receive"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1" >
+<!-- 父布局 -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical" >
+<!-- 字体 -->
+                <TextView
+                     android:id="@+id/tv_left_my_order_receive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="待收货" />
+<!-- 底部线条 -->
+                <View
+                     android:id="@+id/view_left_my_order_receive"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#b869ba" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+             android:id="@+id/rl_left_my_order_appraise"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical" >
+
+                <TextView
+                     android:id="@+id/tv_left_my_order_appraise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="待评价" />
+
+            </RelativeLayout>
+                <View
+                     android:id="@+id/view_left_my_order_appraise"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#b869ba" />
+        </RelativeLayout>
+    </LinearLayout>
+   <FrameLayout 
+       android:id="@+id/fl_left_my_order"
+         android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+       
+       ></FrameLayout>
+</LinearLayout><!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/activity_left_order.xml -->

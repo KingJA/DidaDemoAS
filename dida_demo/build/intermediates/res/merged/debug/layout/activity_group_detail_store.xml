@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_parent_store_detail"
+    >
+
+   <ScrollView
+       android:overScrollMode="never"
+       android:scrollbars="none"
+       android:fillViewport="true"
+        android:layout_height="0dp"
+         android:layout_weight="1"
+        android:layout_width="match_parent"
+        >
+    <LinearLayout 
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+       <!-- 标题-->
+       <FrameLayout 
+           android:id="@+id/fl_group_detail_head"
+            android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+           />
+        <!-- 商品参数-->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardElevation="2px"
+            >
+
+            <RelativeLayout
+                android:id="@+id/rl_pingou_store_detail_param"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+                <TextView
+                    style="@style/black_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="商品参数" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/right_open" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <!-- 选择规格-->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardElevation="2px" >
+
+            <RelativeLayout
+                android:id="@+id/rl_market_pingou_store_detail_select"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" >
+
+                <TextView
+                    style="@style/black_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="选择规格" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/right_open" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <include layout="@layout/include_open_right_team"/>
+        <!-- 评论-->
+       <FrameLayout 
+           android:id="@+id/fl_group_detail_comment"
+            android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+           /> 
+    </LinearLayout>
+ </ScrollView>
+    <View style="@style/divider_nomal_horizontal"/>
+<include layout="@layout/bottom_pingou_detail_store"/>
+</LinearLayout>
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/activity_group_detail_store.xml -->

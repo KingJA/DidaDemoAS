@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/gray_tip"
+    >
+   <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+       android:background="@color/black_bg"
+>
+ <ImageView
+     android:layout_centerVertical="true"
+            android:id="@+id/iv_group_detail_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/btn_back" />
+            
+ <TextView
+     android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="退款详情"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    <ImageView
+        android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+            android:id="@+id/iv_group_detail_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:background="@drawable/chat_nor" />
+</RelativeLayout>
+   <ScrollView 
+       android:scrollbars="none"
+       android:fillViewport="true"
+        android:layout_height="0dp"
+         android:layout_weight="1"
+        android:layout_width="match_parent"
+         
+        >
+    <LinearLayout 
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+       <FrameLayout 
+           android:layout_marginTop="16dp"
+           android:id="@+id/fl_refund_detail_step1"
+            android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+           /> 
+       <FrameLayout 
+           android:id="@+id/fl_refund_detail_step2"
+            android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+           /> 
+       <FrameLayout 
+           android:id="@+id/fl_refund_detail_step3"
+            android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+           /> 
+       <FrameLayout 
+           android:id="@+id/fl_refund_detail_step4"
+            android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+           /> 
+    </LinearLayout>
+ </ScrollView>
+</LinearLayout>
+<!-- From: file:/E:/wxy/workpace/DidaDemoAS/dida_demo/src/main/res/layout/activity_refund_detail.xml -->

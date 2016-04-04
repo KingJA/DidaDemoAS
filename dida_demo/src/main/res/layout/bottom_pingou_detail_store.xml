@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+        <LinearLayout
+            android:background="@drawable/selector_white2gray"
+            android:gravity="center"
+            android:id="@+id/ll_pingou_store_fav"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_pingou_store_fav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_fav_sel" />
+                <TextView
+                    android:id="@+id/tv_pingou_store_fav"
+                    android:layout_marginTop="4dp"
+                    android:text="收藏"
+                    style="@style/gray_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            style="@style/divider_nomal_vertical" >
+        </View>
+
+
+        <LinearLayout
+            android:background="@drawable/selector_white2gray"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/ll_pingou_store_store"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_pingou_store_store"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_store_sel" />
+                <TextView
+                    android:id="@+id/tv_pingou_store_store"
+                    android:layout_marginTop="4dp"
+                    android:text="店铺"
+                    style="@style/gray_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>  <View
+            style="@style/divider_nomal_vertical" >
+        </View>
+
+
+        <LinearLayout
+            android:background="@drawable/selector_white2gray"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/ll_pingou_store_service"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_pingou_store_service"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_service_sel" />
+                <TextView
+                    android:id="@+id/tv_pingou_store_service"
+                    android:layout_marginTop="4dp"
+                    android:text="客服"
+                    style="@style/gray_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:gravity="center"
+            android:text="立即加入"
+            style="@style/white_16"
+            android:id="@+id/tv_pingou_store_join"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/red"/>
+
+</LinearLayout>
